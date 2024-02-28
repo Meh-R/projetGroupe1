@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/bg_hero_mobile.svg);
+  background-size: contain;
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.headerTitleButton {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTitleButton button {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 0.6em 2em;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgb(216, 216, 216);
+}
+
+.headerContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3em;
+}
+
+.headerContainer p {
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.headerContainer button {
+  background-color: hsl(322, 100%, 66%);
+  padding: 1em 5em;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5em;
+}
