@@ -14,8 +14,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .header {
+    background-color: rgba(0, 255, 255, 0.267);
+  }
   .headerContainer {
-    /* border: 1px solid black; */
+    /* border: 5px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,38 +26,63 @@
     padding: 0px 100px;
     gap: 50px;
   }
+  .headerContainer h1 {
+    font-size: 38px;
+    text-align: left;
+  }
+  .headerContainer p {
+    text-align: left;
+  }
+  .header-container-image {
+    width: 55%;
+  }
   .first-container,
   .second-container,
   .third-container,
   .fourth-container {
     /* border: 1px solid black; */
-    box-shadow: 0px 0px 1px;
+    box-shadow: 0px 0px 20px 0px;
+    color: rgba(0, 0, 0, 0.274);
     border-radius: 25px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
     height: 75vh;
-    margin: 100px 50px 100px;
+    margin: 100px 100px 100px;
     text-align: left;
     gap: 100px;
   }
-  .header-container-image {
-    width: 55%;
+  .first-container-text h2,
+  .second-container-text h2,
+  .third-container-text h2 {
+    text-align: left;
+    font-size: 36px;
+  }
+  .first-container-text p,
+  .second-container-text p,
+  .third-container-text p {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 150px;
+  }
+  .second-container {
+    flex-direction: row;
   }
   .first-container-image,
   .second-container-image,
   .third-container-image,
   .fourth-container-image {
     flex-direction: row;
-    width: 45%;
+    width: 40%;
   }
   h1,
   h2,
   h3 {
     font-family: Poppins;
     font-weight: 600;
+    color: black;
   }
   button {
     font-family: Open Sans;
@@ -65,14 +93,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10%;
+    border-radius: 15px;
     /* border: 5px solid black; */
     background-color: white;
     position: relative;
-    top: 250px;
-    left: 30%;
+    top: 200px;
+    left: 25%;
+    right: 25%;
     width: fit-content;
     height: fit-content;
+    gap: 0px;
+    padding: 15px 100px;
   }
   .fourth-container-button {
     background-color: hsl(322, 100%, 66%);
@@ -88,11 +119,13 @@
     background-color: hsl(192, 100%, 9%);
     color: white;
     width: 100%;
-    display: grid;
-    grid-template-rows: 20% 1fr 20%;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
   }
-  .footer-icon {
-    width: 2.5%;
+  .footer-logo {
+    width: 5px;
+  }
+  footer img {
+    width: 5%;
   }
 }
