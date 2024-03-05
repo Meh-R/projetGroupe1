@@ -53,7 +53,6 @@
     cursor: pointer;
   }
   .headerContainer {
-    /* border: 5px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,6 +60,7 @@
     padding: 0px 100px;
     gap: 50px;
   }
+
   .headerContainer h1 {
     font-size: 38px;
     text-align: left;
