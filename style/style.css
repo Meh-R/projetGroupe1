@@ -17,7 +17,7 @@
   .header {
     display: flex;
     flex-direction: column;
-    background-image: url(../images/bg_hero_mobile.svg);
+    background-image: url(../images/bg_hero_desktop.svg);
     background-size: contain;
     background-color: hsl(193, 100%, 96%);
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@
     background-color: white;
     position: relative;
     top: 200px;
-    left: 25%;
+    left: 19%;
     right: 25%;
     width: 700px;
     height: fit-content;
@@ -193,6 +193,10 @@
   footer li {
     list-style: none;
   }
+  footer ul {
+    display: flex;
+  }
+
   .footer-icon {
     padding-left: 190px;
   }
