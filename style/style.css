@@ -201,7 +201,7 @@
   }
   .footer-copyright {
     position: relative;
-    left: 500px;
+    right: -550px;
     top: 100px;
   }
 }
