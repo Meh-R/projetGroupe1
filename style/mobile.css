@@ -1,10 +1,8 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: serif;
-
 }
 
 .bg-black {
@@ -336,7 +334,6 @@ footer li {
 .icon-instagram:hover {
   filter: brightness(0) saturate(100%) invert(11%) sepia(71%) saturate(6601%)
     hue-rotate(10deg) brightness(88%) contrast(122%);
-
 }
 
 .header {
@@ -608,12 +605,13 @@ footer ul a {
   list-style: none;
   padding: 2em 0 2em 0;
   font-family: "Open Sans", serif;
-  list-style: none;
+
   text-decoration: none;
 }
 
 footer li {
   padding: 1.5em 1.5em 0;
+  list-style: none;
 }
 
 .footer-copyright {
