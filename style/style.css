@@ -1,4 +1,4 @@
-@media screen and (min-width: 376px) {
+@media only screen and (min-width: 1440px) {
   * {
     padding: 0;
     margin: 0;
@@ -18,7 +18,6 @@
     background-color: rgba(0, 255, 255, 0.267);
   }
   .headerContainer {
-    /* border: 5px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,6 +25,7 @@
     padding: 0px 100px;
     gap: 50px;
   }
+
   .headerContainer h1 {
     font-size: 38px;
     text-align: left;
