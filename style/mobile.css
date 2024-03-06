@@ -2,16 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: serif;
 }
 
 .bg-black {
-  background-color: rgba(0, 0, 0, 0.286);
-  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.378);
 }
 
-.text-white p {
-  color: white;
+.hd-black {
+  background-color: rgba(128, 128, 128, 0.378) !important;
 }
 
 .header {
@@ -48,6 +46,10 @@
   box-shadow: 2px 2px 10px rgb(216, 216, 216);
   width: 25vw;
   height: 22px;
+}
+
+.headerTitleButton button:hover {
+  color: gray;
 }
 
 .headerTitleButton button:hover {
@@ -173,7 +175,6 @@
 }
 
 .fourth-container {
-  /* border: 1px solid black; */
   border-radius: 15px;
   margin: 1em;
   box-shadow: 2px 2px 10px rgba(104, 103, 103, 0.5);
@@ -182,7 +183,6 @@
   align-items: center;
   position: relative;
   top: 80px;
-  background-color: white;
   height: 20vh;
 }
 
@@ -334,17 +334,6 @@ footer li {
 .icon-instagram:hover {
   filter: brightness(0) saturate(100%) invert(11%) sepia(71%) saturate(6601%)
     hue-rotate(10deg) brightness(88%) contrast(122%);
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  background-image: url(../images/bg_hero_mobile.svg);
-  background-size: contain;
-  background-color: hsl(193, 100%, 96%);
-  background-repeat: no-repeat;
-  height: 88vh;
-  width: 100vw;
 }
 
 .headerTitleButton {
@@ -605,13 +594,15 @@ footer ul a {
   list-style: none;
   padding: 2em 0 2em 0;
   font-family: "Open Sans", serif;
-
   text-decoration: none;
 }
 
 footer li {
   padding: 1.5em 1.5em 0;
   list-style: none;
+}
+footer li:hover {
+  text-decoration: underline;
 }
 
 .footer-copyright {
@@ -627,33 +618,81 @@ footer li {
   justify-content: center;
   padding: 2em;
 }
+
+.divFacebook {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1.5em;
+  width: 2px;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.divFacebook:hover {
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
+.divTwitter {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1.5em;
+  width: 2px;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.divTwitter:hover {
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
+.divInstagrame {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 1.5em;
+  width: 2px;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divInstagrame:hover {
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
 .icon-facebook {
   width: 25px;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0.3em 0.5em 0 0.5em;
 }
 
 .icon-facebook:hover {
-  filter: brightness(0) saturate(100%) invert(11%) sepia(71%) saturate(6601%)
-    hue-rotate(10deg) brightness(88%) contrast(122%);
+  filter: brightness(0) saturate(100%) invert(42%) sepia(71%) saturate(673%)
+    hue-rotate(274deg) brightness(103%) contrast(102%);
 }
 
 .icon-twiter {
   width: 25px;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0.5em 0.5em 0 0.5em;
 }
 
 .icon-twiter:hover {
-  filter: brightness(0) saturate(100%) invert(11%) sepia(71%) saturate(6601%)
-    hue-rotate(10deg) brightness(88%) contrast(122%);
+  filter: brightness(0) saturate(100%) invert(42%) sepia(71%) saturate(673%)
+    hue-rotate(274deg) brightness(103%) contrast(102%);
 }
 
 .icon-instagram {
   width: 25px;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0.3em 0.5em 0 0.5em;
 }
 
 .icon-instagram:hover {
-  filter: brightness(0) saturate(100%) invert(11%) sepia(71%) saturate(6601%)
-    hue-rotate(10deg) brightness(88%) contrast(122%);
+  filter: brightness(0) saturate(100%) invert(42%) sepia(71%) saturate(673%)
+    hue-rotate(274deg) brightness(103%) contrast(102%);
 }
 /* } */

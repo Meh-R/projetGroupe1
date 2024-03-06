@@ -18,13 +18,13 @@
     display: flex;
     flex-direction: column;
     background-image: url(../images/bg_hero_desktop.svg);
-    background-size: contain;
-    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    background-color: hsl(192, 100%, 96%);
     background-repeat: no-repeat;
     height: 88vh;
     width: 100vw;
-    background-color: rgba(0, 255, 255, 0.151);
   }
+
   .headerTitleButton {
     padding: 2em 1.2em;
     display: flex;
@@ -128,7 +128,7 @@
   .third-container-image,
   .fourth-container-image {
     flex-direction: row;
-    width: 40%;
+    width: 100%;
   }
   h1,
   h2,
@@ -192,6 +192,7 @@
   }
   footer li {
     list-style: none;
+    width: 10em;
   }
   footer ul {
     display: flex;
