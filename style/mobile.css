@@ -2,25 +2,60 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: 2s;
+}
+
+.Modale {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  background-color: gray;
+  border-radius: 15px;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: none;
+}
+
+.Modale p {
+  font-size: 15vw;
+  color: hsl(322, 100%, 66%);
+  transition: none;
 }
 
 .bg-black {
-  background-color: rgba(128, 128, 128, 0.378);
+  background-color: rgba(0, 0, 0, 0.824);
+  transition: 2s;
 }
 
 .hd-black {
-  background-color: rgba(128, 128, 128, 0.378) !important;
+  background-color: rgba(45, 45, 45, 0.824) !important;
+  transition: 2s;
+}
+
+.hd-black h1 {
+  color: white !important;
+}
+.hd-black p {
+  color: white !important;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   background-image: url(../images/bg_hero_mobile.svg);
-  background-size: contain;
+  background-size: cover;
   background-color: hsl(193, 100%, 96%);
   background-repeat: no-repeat;
   height: 88vh;
   width: 100vw;
+}
+.header {
+  background-image: url(../images/bg_hero_mobile.svg);
+  background-color: hsl(193, 100%, 96%);
 }
 
 .headerTitleButton {
@@ -695,4 +730,3 @@ footer li:hover {
   filter: brightness(0) saturate(100%) invert(42%) sepia(71%) saturate(673%)
     hue-rotate(274deg) brightness(103%) contrast(102%);
 }
-/* } */
